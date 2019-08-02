@@ -39,6 +39,9 @@ var proxyserver2 = "PROXY proxy.axa-nichidan.co.jp:8080";
 // Make host lowercase
 var lhost = host.toLowerCase();
 host = lhost;
+	
+	
+	
 return "DIRECT"
 
 //Catch explicit FQDNs which need the proxy but are covered under wildcarded FQDNs which have IPs. This has to be done first before the wildcard is hit
